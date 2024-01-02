@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <input type="text">
+    <h2>i love <span>span</span></h2>
+    <img src="images/cat.jpg" alt="">
+    <div id="demo1">
+        <label for="productName">productName</label>
+        <input type="text" id="productName">
+
+        <label for="productPrice">productPrice</label>
+        <input type="text" id="productPrice">
+
+        <label for="productCategory">productCategory</label>
+        <input type="text" id="productCategory">
+
+        <label for="productDesc">productDesc</label>
+        <textarea type="text" id="productDesc"></textarea>
+        <button  id="add">Add</button>
+        <button class="hidden" id="update">update</button>
+        
+        
+    </div>
+    <div id="demo1">
+        <input placeholder="Search by name..." type="text" oninput="searchProduct(this.value);">
+        <table>
+            <thead>Name</thead>
+            <thead>Price</thead>
+            <thead>Category</thead>
+            <thead>Description</thead>
+            <thead>Update</thead>
+            <thead>Delete</thead>
+            <tbody id="tableBody">
+           
+            </tbody>
+        </table>
+    </div>
+    <!-- <div id="demo2"></div>
+    <div id="demo3"></div>
+    <div id="demo4"></div> -->
+    <script src="javascribt/index.js"></script>
+</body>
+</html>
